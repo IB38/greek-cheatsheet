@@ -40,4 +40,4 @@ The workflow uploads only `index.html`, `src/app.js`, and `src/styles.css`. Node
 
 If you rename the deployment branch, update `on.push.branches` in the workflow. Setup follows [GitHub's static Pages workflow](https://github.com/actions/starter-workflows/blob/main/pages/static.yml).
 
-Fonts load from Google Fonts, with local fallback fonts when unavailable.
+The site uses system fonts and does not load external font resources.
