@@ -1,0 +1,14 @@
+{
+  "name": "greek-cheatsheet",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Five compact Modern Greek cheatsheets.",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
